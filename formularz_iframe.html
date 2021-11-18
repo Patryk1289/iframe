@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<html>
+<head>
+<meta charset="utf-8">
+<title> tabela </title>
+</head>
+<body>
+<form enctype="text/plain" action="mailto:mkryniew@poczta.wp.pl?subject=Formularz" method="Post">
+<TABLE>
+<th colspan=3>
+Ankieta na temat miasta Gdańska
+</th>
+<tr>
+<td> <p> <font size=4> 1. Podaj imię <input type="text" name="imie"> </font></p>
+<font size=4>2. Podaj nazwisko <input type="text" name="nazwisko"></font>
+<p><font size=4> 3. Wybierz swój przedział wiekowy </font></p>
+<INPUT TYPE="radio" NAME="wiek" VALUE="0do19">0-19 <INPUT TYPE="radio" NAME="wiek" VALUE="20do65">20-65 <INPUT TYPE="radio" NAME="wiek" VALUE="66+">66+
+<p> <font size=4>4. Wybierz płeć </font> </p>
+<INPUT TYPE="radio" NAME="plec" VALUE="mezczyzna">Mężczyzna <INPUT TYPE="radio" NAME="plec" VALUE="kobieta">Kobieta <INPUT TYPE="radio" NAME="plec" VALUE="inna">Inna
+<p><font size=4>5. Gdzie obecnie mieszkasz?</font>
+<p> <SELECT NAME=mieszkanie> </p>
+<OPTION VALUE=domjednorodzinny>Dom jednorodzinny
+<OPTION VALUE=blok>Blok
+<OPTION VALUE=kawalerka>Kawalerka
+<OPTION VALUE=wiezowiec>Wieżowiec
+<OPTION VALUE=zadne>Żadne z powyższych/Gdzie indziej
+</SELECT>
+<p> <font size=>6.W jakiej dzielnicy Gdańska mieszkasz? </font></p>
+<TEXTAREA NAME="dzielnica" ROWS=10 COLS=50>
+</TEXTAREA>
+<p><font size=> 7.Czy czujesz się bezpiecznie w dzielnicy w której mieszkasz?</font> </p>
+<input TYPE="radio" Name="bezpieczenstwo" Value="tak">Tak <input TYPE="radio" Name="bezpieczenstwo" Value="nie">Nie <input TYPE="radio" Name="bezpieczenstwo" Value="ciezkopowiedziec">Ciężko powiedzieć 
+</td>
+<td>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</td>
+<td> <p><font size=4>8. Czy mieszkasz w Gdańsku od urodzenia? Jeżeli nie,<br> to zaznacz od ilu lat mieszkasz w Gdańsku</font></br> </p>
+<input type="radio" name="mieszkaniewgdansku" Value="1do10lat">1-10 lat <input type="radio" name="mieszkaniewgdansku" Value="11do20lat">11-20 lat <input type="radio" name="mieszkaniewgdansku" Value="21lat+">21+ lat 
+<br> <input type="radio" name="mieszkaniewgdansku" Value="mieszkanieodurodzenia">Mieszkam w Gdańsku od urodzenia </br>
+<p><font size=4>9. Czy jesteś zadowolony/na z życia w Gdańsku? </font></p>
+<input TYPE="radio" name="zadowolenie" Value="tak">Tak <input TYPE="radio" name="zadowolenie" Value="nie">Nie <input TYPE="radio" name="zadowolenie" Value="niewiem">Nie wiem
+<p><font size=4>10. Co zmieniłbyś/abyś w Gdańsku </font></p>
+<TEXTAREA Name="zmiany" ROWS=10 COLS=50>
+</TEXTAREA>
+<p><font size=4>11. Czy jesteś zadowolony/na z obecnych władz Gdańska i ich działań? </font></p>
+<input type="radio" name=zadowoleniewladze" Value="tak">Tak <input type="radio" name=zadowoleniewladze" Value="nie">Nie <input type="radio" name=zadowoleniewladze" Value="nie wiem">Nie wiem
+<p> <font size=4> Wpisz kod wysyłany przez władzie miasta<br> upoważniający do wysłania ankiety: </br>  </font> </p>
+<p> <input type="password" name="kodupowazniajacy"> </p>
+<INPUT TYPE="submit" VALUE="Wyślij">&nbsp;&nbsp;<INPUT TYPE="reset" VALUE="Reset"> </td>
+</tr>
+</form>
+</TABLE>
+</body>
+</html>
